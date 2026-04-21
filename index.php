@@ -26,6 +26,12 @@
                     <li class="nav-item"><a class="nav-link" href="#rooms">Rooms</a></li>
                     <li class="nav-item"><a class="nav-link" href="#buildings">Buildings</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">About</a></li>
+                    <!-- Buttons Group - Right Side -->
+                    <div class="d-flex gap-2">
+
+                        <!-- Primary CTA Button -->
+                        <a href="admin-login.php" class="btn btn-danger btn-md">Admin login</a>
+                    </div>
                 </ul>
             </div>
         </div>

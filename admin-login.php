@@ -1,6 +1,6 @@
 <?php
 if (isset($_POST['submit'])) {
-    header("Location: public/admin-dashboard.php");
+    header("Location: admin/admin-dashboard.php");
 }
 ?>
 <!DOCTYPE html>
@@ -49,7 +49,7 @@ if (isset($_POST['submit'])) {
                         </div>
 
                         <button type="submit" name="submit" class="btn-login">
-                            <a class="nav-link" href="public/admin-dashboard.php"><i class="fas fa-arrow-right me-2"></i>Login</a>
+                            <i class="fas fa-arrow-right me-2"></i>Login
 
                         </button>
                     </form>
