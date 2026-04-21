@@ -25,13 +25,7 @@
                         <div class="rounded-4 shadow overflow-hidden">
 
                             <div class="ratio ratio-16x9">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.9901669052156!2d123.16334527389098!3d7.576048110040152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3256adad3dddf9b1%3A0xe3eb339ec8e37a06!2sPoblacion%2C%20Margosatubig%2C%20Zamboanga%20Del%20Sur%20-%20Barangay%20Hall!5e0!3m2!1sen!2sph!4v1776712769340!5m2!1sen!2sph"
-                                    class="w-100 h-100 border-0"
-                                    allowfullscreen=""
-                                    loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade">
-                                </iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126470.23518322922!2d123.25001544660145!3d7.874670108336425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x325410c3b76b06ef%3A0x802978fd15b365cb!2sPagadian%20City%2C%20Zamboanga%20del%20Sur!5e0!3m2!1sen!2sph!4v1776750033738!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
 
                         </div>

@@ -1,10 +1,5 @@
 <?php
-$host = 'localhost';
-$username = 'root';
-$password = '';
-$dbname = 'iTrack_db';
-
-$conn = mysqli_connect($host, $username, $password, $dbname);
+include 'config/setup.php';
 
 if (isset($_POST['submit'])) {
     $full_name = mysqli_real_escape_string($conn, $_POST['full_name']);
@@ -21,7 +16,7 @@ if (isset($_POST['submit'])) {
         echo "❌ Error: " . mysqli_error($conn);
     }
 }
-mysqli_close($conn);
+
 ?>
 
 <!DOCTYPE html>

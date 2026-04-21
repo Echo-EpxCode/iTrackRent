@@ -1,12 +1,6 @@
 <?php
 session_start();
-$host = 'localhost';
-$username = 'root';
-$password = '';
-$dbname = 'iTrack_db';
-
-$conn = mysqli_connect($host, $username, $password, $dbname);
-
+include 'config/setup.php';
 $error = '';
 
 if (isset($_POST['submit'])) {
@@ -25,7 +19,7 @@ if (isset($_POST['submit'])) {
         $error = "❌ Email not found!";
     }
 }
-mysqli_close($conn);
+
 ?>
 
 <!DOCTYPE html>
