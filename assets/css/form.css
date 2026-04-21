@@ -1,0 +1,270 @@
+    :root {
+        --primary: #de283b;
+        --secondary: #ff6366;
+        --text: #1a1a1a;
+        --accent: #25b1bf;
+        --bg: #ffffff;
+        --defaultColor: #ffccc4;
+    }
+
+    * {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    body {
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--text);
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    }
+
+    /* Navbar - Exact reuse from landing page */
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.95) !important;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+        padding: 1rem 0;
+    }
+
+    .navbar-brand {
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: var(--primary) !important;
+    }
+
+    /* Main Login Container - Full viewport height */
+    .login-container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Single Row with 2 Full-Height Divisions */
+    .login-row {
+        flex: 1;
+        display: flex;
+    }
+
+    /* FIRST DIVISION - Form Section (Full width/height of division) */
+    .form-division {
+        flex: 1;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 249, 250, 0.9) 100%);
+        backdrop-filter: blur(20px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .form-division::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background:
+            radial-gradient(circle at 20% 20%, rgba(37, 177, 191, 0.1) 0%, transparent 50%),
+            radial-gradient(circle at 80% 80%, rgba(222, 40, 59, 0.08) 0%, transparent 50%);
+        z-index: 0;
+    }
+
+    /* Form Container - FILLS ENTIRE DIVISION */
+    .login-form-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 3rem 3rem;
+        position: relative;
+        z-index: 1;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .form-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--text);
+        text-align: center;
+        margin-bottom: 2.5rem;
+        position: relative;
+    }
+
+    /* Compact Form - No borders */
+    .form-group {
+        margin-bottom: 1.5rem;
+        position: relative;
+    }
+
+    .form-input {
+        width: 100%;
+        padding: 1.2rem 1rem 1.2rem 3rem;
+        border: none;
+        border-bottom: 2px solid rgba(222, 40, 59, 0.2);
+        background: transparent;
+        font-size: 1rem;
+        color: var(--text);
+        transition: all 0.3s ease;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .form-input:focus {
+        outline: none;
+        border-bottom-color: var(--primary);
+        box-shadow: 0 5px 20px rgba(222, 40, 59, 0.1);
+    }
+
+    .form-icon {
+        position: absolute;
+        left: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #6c757d;
+        font-size: 1.1rem;
+        z-index: 2;
+        transition: color 0.3s ease;
+    }
+
+    .form-input:focus+.form-icon,
+    .form-input:not(:placeholder-shown)+.form-icon {
+        color: var(--primary);
+    }
+
+    /* Login Button */
+    .btn-login {
+        width: 100%;
+        padding: 1.1rem;
+        background: linear-gradient(135deg, var(--primary), var(--secondary));
+        border: none;
+        border-radius: 12px;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-top: 1rem;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: 0 10px 30px rgba(222, 40, 59, 0.3);
+    }
+
+    .btn-login:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 15px 40px rgba(222, 40, 59, 0.4);
+    }
+
+    /* Divider */
+    .divider {
+        text-align: center;
+        margin: 2rem 0;
+        color: #6c757d;
+        position: relative;
+    }
+
+    .divider::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: #e9ecef;
+    }
+
+    .divider span {
+        background: rgba(255, 255, 255, 0.9);
+        padding: 0 1rem;
+        font-size: 0.9rem;
+    }
+
+    /* Google Button */
+    .btn-google {
+        width: 100%;
+        padding: 1rem;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+        border-radius: 12px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(10px);
+    }
+
+    .btn-google:hover {
+        background: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.5);
+        transform: translateY(-1px);
+    }
+
+    /* Auth Links */
+    .auth-links {
+        text-align: center;
+        margin-top: 2rem;
+        color: #6c757d;
+    }
+
+    .auth-links a {
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    /* SECOND DIVISION - Visual Section (Full width/height) */
+    .visual-division {
+        flex: 1;
+        background: #ff6366;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* Centered Image - Full division content */
+    .visual-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0;
+        filter: brightness(0.9) contrast(1.1);
+    }
+
+    .visual-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, rgba(255, 99, 102, 0.1) 0%, rgba(255, 99, 102, 0.3) 100%);
+        z-index: 1;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .login-row {
+            flex-direction: column;
+        }
+
+        .form-division,
+        .visual-division {
+            min-height: 50vh;
+        }
+
+        .login-form-container {
+            padding: 2rem 2rem;
+        }
+
+        .form-title {
+            font-size: 2rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .login-form-container {
+            padding: 1.5rem;
+        }
+    }

@@ -1,0 +1,179 @@
+   :root {
+       --primary: #de283b;
+       --secondary: #ff6366;
+       --text: #1a1a1a;
+       --accent: #25b1bf;
+       --bg: #ffffff;
+       --defaultColor: #ffccc4;
+   }
+
+   * {
+       font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+   }
+
+   body {
+       font-size: 18px;
+       line-height: 24px;
+       color: var(--text);
+       background-color: var(--bg);
+   }
+
+   /* Navbar */
+   .navbar {
+       background-color: rgba(255, 255, 255, 0.95) !important;
+       backdrop-filter: blur(10px);
+       box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+       padding: 1rem 0;
+   }
+
+   .navbar-brand {
+       font-weight: 700;
+       font-size: 1.5rem;
+       color: var(--primary) !important;
+   }
+
+   .nav-link {
+       font-weight: 500;
+       color: var(--text) !important;
+       margin: 0 0.5rem;
+       transition: all 0.3s ease;
+   }
+
+   .nav-link:hover {
+       color: var(--primary) !important;
+       transform: translateY(-2px);
+   }
+
+   /* Hero Section */
+   .hero {
+       min-height: 100vh;
+       background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+           url('../images/main.jpg') center/cover no-repeat;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       color: white;
+   }
+
+   .hero h1 {
+       font-size: clamp(2.5rem, 5vw, 4rem);
+       font-weight: 700;
+       margin-bottom: 1.5rem;
+       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   }
+
+   .hero .btn-primary {
+       background: var(--primary);
+       border: none;
+       padding: 1rem 3rem;
+       font-size: 1.1rem;
+       font-weight: 600;
+       border-radius: 50px;
+       transition: all 0.3s ease;
+       box-shadow: 0 10px 30px rgba(222, 40, 59, 0.4);
+   }
+
+   .hero .btn-primary:hover {
+       transform: translateY(-3px);
+       box-shadow: 0 15px 40px rgba(222, 40, 59, 0.6);
+   }
+
+   /* Rooms Section */
+   .section-title {
+       font-size: 2.5rem;
+       font-weight: 700;
+       text-align: center;
+       margin: 4rem 0 3rem;
+       color: var(--text);
+   }
+
+   .carousel-control-prev,
+   .carousel-control-next {
+       width: 5%;
+       opacity: 0.8;
+   }
+
+   .room-card {
+       transition: all 0.3s ease;
+       border: none;
+       border-radius: 20px;
+       overflow: hidden;
+       box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+       height: 100%;
+   }
+
+   .room-card:hover {
+       transform: translateY(-10px);
+       box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+   }
+
+   .room-card img {
+       height: 250px;
+       object-fit: cover;
+       transition: transform 0.3s ease;
+   }
+
+   .room-card:hover img {
+       transform: scale(1.05);
+   }
+
+   .room-card .card-body {
+       padding: 2rem;
+       background: white;
+   }
+
+   /* Buildings Section */
+   .building-card {
+       transition: all 0.3s ease;
+       border: none;
+       border-radius: 20px;
+       overflow: hidden;
+       height: 100%;
+       background: white;
+       box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+   }
+
+   .building-card:hover {
+       transform: translateY(-10px);
+       box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+   }
+
+   .building-card img {
+       height: 300px;
+       object-fit: cover;
+   }
+
+   /* Footer */
+   .footer {
+       background: linear-gradient(135deg, var(--primary), var(--secondary));
+       color: white;
+       padding: 4rem 0 2rem;
+       margin-top: 5rem;
+   }
+
+   .footer h5 {
+       font-weight: 600;
+       margin-bottom: 1.5rem;
+   }
+
+   .footer a {
+       color: rgba(255, 255, 255, 0.8);
+       text-decoration: none;
+       transition: color 0.3s ease;
+   }
+
+   .footer a:hover {
+       color: white;
+   }
+
+   /* Responsive */
+   @media (max-width: 768px) {
+       .hero h1 {
+           font-size: 2rem;
+       }
+
+       .section-title {
+           font-size: 2rem;
+       }
+   }
