@@ -20,7 +20,7 @@
       </div>
       <div class="col-lg-3 col-md-6">
           <div class="stat-card">
-              <div class="stat-number">₹2.4L</div>
+              <div class="stat-number">₱12,000</div>
               <div class="stat-label">Monthly Revenue</div>
           </div>
       </div>
