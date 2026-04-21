@@ -10,7 +10,7 @@
     <!-- Main Content -->
     <div class="main-content">
         <!-- Dashboard Header -->
-        <?php include __DIR__ . '/../partials/dashboard-header.php' ?>
+        <?php include __DIR__ . '/admin-dashboard-header.php' ?>
 
         <div class="row">
             <div class="col-md-12">

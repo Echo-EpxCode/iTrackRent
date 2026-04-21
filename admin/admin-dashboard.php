@@ -10,13 +10,9 @@
     <!-- Main Content -->
     <div class="main-content">
         <!-- Dashboard Header -->
-        <?php include __DIR__ . '/../partials/dashboard-header.php' ?>
+        <?php include __DIR__ . '/admin-dashboard-header.php' ?>
+        <!-- overview -->
         <?php include __DIR__ . '/../partials/status-overview.php' ?>
-        <!-- 12 Rooms Grid -->
-        <div class="rooms-grid">
-
-
-        </div>
     </div>
 
     <?php include __DIR__ . '/../partials/footer.php' ?>

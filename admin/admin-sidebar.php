@@ -4,7 +4,7 @@
                 <a class="nav-link active" href="#"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href=""><i class="fas fa-home"></i>Home</a>
+                <a class="nav-link" href="admin-dashboard.php"><i class="fas fa-home"></i>Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="admin-management.php"><i class="fa-solid fa-house-flag"></i>Room Management</a>
