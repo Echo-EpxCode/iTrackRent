@@ -1,5 +1,5 @@
 <!-- Dashboard Header -->
 <div class="dashboard-header">
-    <h1 class="dashboard-title">Dashboard Overview</h1>
-    <p class="dashboard-subtitle">Manage your boarding houses and rooms efficiently</p>
+    <h1 class="dashboard-title">Start Exploring</h1>
+    <p class="dashboard-subtitle">Search rooms, view listings, and book your next stay.</p>
 </div>
