@@ -15,7 +15,7 @@
             <div class="container">
                 <div class="row justify-content-center text-center mb-2">
                     <div class="col-lg-8">
-                        <h1 class="display-5 fw-bold text-danger mb-4">Short-Stay Pension House</h1>
+                        <h1 class="display-5 fw-bold text-danger mb-4">RODENTOR PENSION HOUSE </h1>
                     </div>
                 </div>
 
@@ -44,7 +44,7 @@
 
                             <h3 class="text-success mb-4"><i class="fas fa-map-pin me-2"></i>Address</h3>
                             <address class="mb-4">
-                                <strong>Barangay Hall</strong><br>
+                                <strong> Dao, Gaba</strong><br>
                                 Poblacion<br>
                                 Margosatubig, Zamboanga Del Sur
                             </address>
@@ -63,9 +63,6 @@
                             <div class="d-grid gap-2">
                                 <a href="tel:+1234567890" class="btn btn-outline-primary">
                                     <i class="fas fa-phone me-2"></i>(123) 456-7890
-                                </a>
-                                <a href="mailto:rent@homerent.com" class="btn btn-success">
-                                    <i class="fas fa-envelope me-2"></i>rent@homerent.com
                                 </a>
                             </div>
                         </div>

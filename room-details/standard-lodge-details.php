@@ -15,7 +15,7 @@
             <div class="container">
                 <div class="row justify-content-center text-center mb-2">
                     <div class="col-lg-8">
-                        <h1 class="display-5 fw-bold text-danger mb-4">Standard Lodging House</h1>
+                        <h1 class="display-5 fw-bold text-danger mb-4">JANETTE LODGE</h1>
                     </div>
                 </div>
 
@@ -44,7 +44,7 @@
 
                             <h3 class="text-success mb-4"><i class="fas fa-map-pin me-2"></i>Address</h3>
                             <address class="mb-4">
-                                <strong>Barangay Hall</strong><br>
+                                <strong>Gabay</strong><br>
                                 Poblacion<br>
                                 Margosatubig, Zamboanga Del Sur
                             </address>

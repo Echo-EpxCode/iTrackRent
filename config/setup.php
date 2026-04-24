@@ -67,6 +67,3 @@ if (mysqli_query($conn, $insertUser)) {
 
 // Step 4: Show all users
 $result = mysqli_query($conn, "SELECT * FROM `user_tbl` ORDER BY `id` DESC LIMIT 5");
-
-
-mysqli_close($conn);

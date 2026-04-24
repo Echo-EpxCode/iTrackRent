@@ -39,6 +39,12 @@
        transition: all 0.3s ease;
    }
 
+   .text-outline {
+       -webkit-text-stroke: 0.5px black;
+       color: white;
+       background: transparent;
+   }
+
    .nav-link:hover {
        color: var(--primary) !important;
        transform: translateY(-2px);
@@ -47,20 +53,24 @@
    /* Hero Section */
    .hero {
        min-height: 100vh;
-       background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-           url('../images/main.jpg') center/cover no-repeat;
+       background:
+           linear-gradient(rgba(0, 0, 0, 0.75),
+               rgba(0, 0, 0, 0.95)),
+           url('../images/wallpaper.jpg') center/cover no-repeat;
+
        display: flex;
        align-items: center;
        justify-content: center;
        text-align: center;
-       color: white;
+
+       color: #e5e7eb;
    }
 
    .hero h1 {
        font-size: clamp(2.5rem, 5vw, 4rem);
        font-weight: 700;
        margin-bottom: 1.5rem;
-       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+       text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
    }
 
    .hero .btn-primary {

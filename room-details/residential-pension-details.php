@@ -15,7 +15,7 @@
             <div class="container">
                 <div class="row justify-content-center text-center mb-2">
                     <div class="col-lg-8">
-                        <h1 class="display-5 fw-bold text-danger mb-4">Residential Pension House</h1>
+                        <h1 class="display-5 fw-bold text-danger mb-4">MARGOSATUBIG VIEW PENSION HOUSE & STAYCATION </h1>
                     </div>
                 </div>
 
@@ -44,15 +44,13 @@
 
                             <h3 class="text-success mb-4"><i class="fas fa-map-pin me-2"></i>Address</h3>
                             <address class="mb-4">
-                                <strong>Barangay Hall</strong><br>
-                                Poblacion<br>
+                                <strong> Poblacion</strong><br>
                                 Margosatubig, Zamboanga Del Sur
                             </address>
 
                             <h5 class="text-success mb-3"><i class="fas fa-compass me-2"></i>Nearby</h5>
                             <ul class="list-unstyled small">
-                                <li class="mb-2"><i class="fas fa-shopping-cart text-success me-2"></i>Supermarket - 0.3 mi</li>
-                                <li class="mb-2"><i class="fas fa-subway text-info me-2"></i>Metro Station - 0.5 mi</li>
+                                <li class="mb-2"><i class="fas fa-shopping-cart text-success me-2"></i>Store - 0.3 mi</li>
                                 <li class="mb-2"><i class="fas fa-hospital text-warning me-2"></i>Hospital - 1.2 mi</li>
                                 <li><i class="fas fa-school text-danger me-2"></i>Schools - 0.8 mi</li>
                             </ul>
@@ -63,9 +61,6 @@
                             <div class="d-grid gap-2">
                                 <a href="tel:+1234567890" class="btn btn-outline-primary">
                                     <i class="fas fa-phone me-2"></i>(123) 456-7890
-                                </a>
-                                <a href="mailto:rent@homerent.com" class="btn btn-success">
-                                    <i class="fas fa-envelope me-2"></i>rent@homerent.com
                                 </a>
                             </div>
                         </div>

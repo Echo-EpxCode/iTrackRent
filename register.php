@@ -94,7 +94,7 @@ if (isset($_POST['submit'])) {
             <div class="visual-division">
                 <div class="visual-overlay"></div>
                 <!-- Centered Image FILLS ENTIRE DIVISION -->
-                <img src="./assets/images/wall.avif"
+                <img src="./assets/images/wallpaper.jpg"
                     alt="Modern Boarding House Room" class="visual-image">
             </div>
         </div>

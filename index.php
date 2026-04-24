@@ -42,8 +42,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h1>Find Your Perfect Stay</h1>
-                    <p class="lead mb-4" style="font-size: 1.3rem;">Search and track boarding houses, lodgings, and pension houses effortlessly</p>
+                    <h1 class="text-outline">Find Your Perfect Stay</h1>
+                    <p class="lead mb-4 fw-bold text-outline" style="font-size: 1.3rem;">Search and track boarding houses, lodgings, <br> and pension houses effortlessly</p>
                     <a href="login.php" class="btn btn-primary btn-lg">Sign In</a>
                 </div>
             </div>
@@ -65,7 +65,7 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class="card room-card h-100">
-                                    <img src="assets/images/bedspace.jpg" class="card-img-top" alt="Standard Room">
+                                    <img src="assets/images/room4.jpg" class="card-img-top" alt="Standard Room">
                                     <div class="card-body text-center">
                                         <h5 class="card-title">Standard Room</h5>
                                         <p class="card-text">Comfortable single room with essential amenities and modern furnishings.</p>
@@ -74,7 +74,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class="card room-card h-100">
-                                    <img src="assets/images/executive-pension2.jpg" class="card-img-top" alt="Deluxe Room">
+                                    <img src="assets/images/RODENTOR1.jpg" class="card-img-top" alt="Deluxe Room">
                                     <div class="card-body text-center">
                                         <h5 class="card-title">Deluxe Room</h5>
                                         <p class="card-text">Spacious room with premium bedding, work desk, and city views.</p>
@@ -83,7 +83,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class="card room-card h-100">
-                                    <img src="assets/images/house-rent.avif" class="card-img-top" alt="Family Suite">
+                                    <img src="assets/images/ap3.jpg" class="card-img-top" alt="Family Suite">
                                     <div class="card-body text-center">
                                         <h5 class="card-title">Family Suite</h5>
                                         <p class="card-text">Perfect for families with multiple beds and living area.</p>
@@ -96,7 +96,7 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class="card room-card h-100">
-                                    <img src="assets/images/executive-pension3.jpg" class="card-img-top" alt="Executive Room">
+                                    <img src="assets/images/ap.jpg" class="card-img-top" alt="Executive Room">
                                     <div class="card-body text-center">
                                         <h5 class="card-title">Executive Room</h5>
                                         <p class="card-text">Business-class room with high-speed WiFi and conference facilities.</p>
@@ -105,7 +105,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class="card room-card h-100">
-                                    <img src="assets/images/studio-type.jpg" class="card-img-top" alt="Studio Apartment">
+                                    <img src="assets/images/studio.jpg" class="card-img-top" alt="Studio Apartment">
                                     <div class="card-body text-center">
                                         <h5 class="card-title">Studio Apartment</h5>
                                         <p class="card-text">Compact apartment with kitchenette and separate sleeping area.</p>
@@ -114,7 +114,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class="card room-card h-100">
-                                    <img src="assets/images/premium-lodge-1.jpg" class="card-img-top" alt="Penthouse">
+                                    <img src="assets/images/apartment.jpg" class="card-img-top" alt="Penthouse">
                                     <div class="card-body text-center">
                                         <h5 class="card-title">Penthouse</h5>
                                         <p class="card-text">Luxury rooftop suite with panoramic views and premium amenities.</p>
@@ -143,7 +143,7 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
                     <div class="card building-card h-100">
-                        <img src="assets/images/private-room.jpg" class="card-img-top" alt="Boarding House">
+                        <img src="assets/images/house4rent1.jpg" class="card-img-top" alt="Boarding House">
                         <div class="card-body text-center">
                             <h5 class="card-title">Boarding House</h5>
                             <p class="card-text">Traditional student and worker accommodations with shared facilities and home-like atmosphere.</p>
@@ -152,7 +152,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="card building-card h-100">
-                        <img src="assets/images/premium-lodge.jpg" class="card-img-top" alt="Lodging">
+                        <img src="assets/images/lodge.jpg" class="card-img-top" alt="Lodging">
                         <div class="card-body text-center">
                             <h5 class="card-title">Lodging House</h5>
                             <p class="card-text">Short-term stays with flexible booking options and convenient location access.</p>
@@ -161,7 +161,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="card building-card h-100">
-                        <img src="assets/images/executive-pension1.jpg" class="card-img-top" alt="Pension House">
+                        <img src="assets/images/MARGOS-MAIN.jpg" class="card-img-top" alt="Pension House">
                         <div class="card-body text-center">
                             <h5 class="card-title">Pension House</h5>
                             <p class="card-text">Retiree-friendly accommodations with comprehensive care services and community living.</p>
