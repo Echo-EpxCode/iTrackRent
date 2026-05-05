@@ -30,7 +30,7 @@
                     <div class="d-flex gap-2">
 
                         <!-- Primary CTA Button -->
-                        <a href="admin-login.php" class="btn btn-danger btn-md">Admin login</a>
+                        <a href="auth/admin-login.php" class="btn btn-danger btn-md">Admin login</a>
                     </div>
                 </ul>
             </div>
@@ -43,8 +43,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
                     <h1 class="text-outline">Find Your Perfect Stay</h1>
-                    <p class="lead mb-4 fw-bold text-outline" style="font-size: 1.3rem;">Search and track boarding houses, lodgings, <br> and pension houses effortlessly</p>
-                    <a href="login.php" class="btn btn-primary btn-lg">Sign In</a>
+                    <p class="lead mb-4 fw-bold text-outline" style="font-size: 1.3rem;">BOARDING HOUSE, LODGING HOUSE AND PENSION HOUSE</p>
+                    <a href="auth/login.php" class="btn btn-primary btn-lg">Sign In</a>
                 </div>
             </div>
         </div>
