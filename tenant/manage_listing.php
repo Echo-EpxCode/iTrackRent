@@ -29,7 +29,7 @@ if (isset($_SESSION['flash_message'])) {
     <?php include __DIR__ . '/sidebar.php' ?>
 
     <!-- Main Content -->
-    <div class="main-content mt-4">
+    <div class="main-content mt-5">
         <!-- Dashboard Header -->
         <div class="dashboard-header">
             <h1 class="dashboard-title">Manage Listings</h1>
