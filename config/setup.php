@@ -48,7 +48,7 @@ $sql = "CREATE TABLE IF NOT EXISTS listings (
     house_name VARCHAR(255) NOT NULL,
     address VARCHAR(255) NOT NULL,
 
-    property_type ENUM('boarding_house','lodging_house','pension_house') NOT NULL,
+    property_type ENUM('Boarding House','Lodging House','Pension House') NOT NULL,
     payment_type ENUM('monthly','night') NOT NULL,
 
     price DECIMAL(10,2) NOT NULL,
