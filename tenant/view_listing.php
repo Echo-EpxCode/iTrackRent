@@ -128,6 +128,11 @@ $priceLabel = $listing['payment_type'] === 'monthly' ? 'month' : 'night';
                                     <i class="fas fa-map-marker-alt me-2"></i>View Location
                                 </a>
 
+                                <a href="edit_listing.php?id=<?= $listing['id'] ?>" 
+                                class="btn btn-warning btn-lg">
+                                    <i class="fa-solid fa-pen-to-square me-2"></i>Edit Listing
+                                </a>
+
 
                             </div>
 

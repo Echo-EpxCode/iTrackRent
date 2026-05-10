@@ -3,7 +3,7 @@
 session_start();
 
 // ================= DATABASE CONNECTION =================
-include_once __DIR__ . '/../config/setup.php';
+include_once __DIR__ . '/config/setup.php';
 
 // ================= MESSAGE HANDLING =================
 $message = "";
@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $_SESSION['user_name'] = $user['name'];
             $_SESSION['user_role'] = $user['role'];
 
-            header("Location: ../admin/dashboard.php");
+            header("Location: /admin/dashboard.php");
             exit;
         } else {
             $_SESSION['flash_message'] = "<div class='alert alert-danger'>Invalid password.</div>";
@@ -87,7 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <!-- Navbar (Exact from landing page) -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="../index.php">
+            <a class="navbar-brand" href="/index.php">
                 <i class="fas fa-home me-2"></i>iTrackRent
             </a>
         </div>
@@ -130,7 +130,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="visual-division">
                 <div class="visual-overlay"></div>
                 <!-- Centered Image FILLS ENTIRE DIVISION -->
-                <img src="./../assets/images/wallpaper.jpg"
+                <img src="./assets/images/wallpaper.jpg"
                     alt="Modern Boarding House Room" class="visual-image">
             </div>
         </div>
