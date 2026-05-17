@@ -3,7 +3,6 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-// ================= DATABASE =================
 include_once __DIR__ . '/../config/setup.php';
 
 // ================= ACCESS CONTROL =================
