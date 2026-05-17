@@ -18,6 +18,26 @@ body {
     background: #f8f9fa;
 }
 
+ .table-lg th,
+    .table-lg td {
+        padding: 1rem;
+        vertical-align: middle;
+        font-size: 15px;
+    }
+
+    .table-lg th {
+        white-space: nowrap;
+    }
+
+    .table-responsive {
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .table img {
+        max-width: 220px !important;
+    }
+
 
 
 /* Navbar */
